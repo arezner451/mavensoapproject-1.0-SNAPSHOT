@@ -28,7 +28,7 @@ public class ReziWebService_V1 {
      */
     @WebMethod(operationName = "hello")
     public String hello(@WebParam(name = "name") String txt) {
-        return "Hello " + txt + " !";
+        return "Hello from 2nd version" + txt + " !";
     }
 
     /**
